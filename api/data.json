@@ -1,0 +1,258 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "price": 300,
+      "photo": "1.jpg",
+      "details": "good apple",
+      "seller": 1
+    },
+    {
+      "id": 2,
+      "name": "Mango",
+      "price": 100,
+      "photo": "2.jpg",
+      "details": "good mango",
+      "seller": 1
+    },
+    {
+      "id": 3,
+      "name": "Orange",
+      "price": 80,
+      "photo": "3.jpg",
+      "details": "good orange",
+      "seller": 1
+    },
+    {
+      "name": "Guava",
+      "price": "80",
+      "photo": "4.jpg",
+      "details": "Good Guava",
+      "seller": "1",
+      "id": 4
+    },
+    {
+      "name": "Pomegranate",
+      "price": "120",
+      "photo": "https://images.healthshots.com/healthshots/en/uploads/2021/09/27184641/pomegranate-1600x900.jpg",
+      "details": "Good Pomegranate",
+      "seller": "1",
+      "id": 5
+    },
+    {
+      "name": "Pineapple",
+      "price": "200",
+      "photo": "https://media6.ppl-media.com/mediafiles/blogs/pineapple_6439817058.jpg",
+      "details": "Good PineApple",
+      "seller": "1",
+      "id": 6
+    },
+    {
+      "name": "Carrot",
+      "price": "120",
+      "photo": "https://www.komalasvegemart.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/carrots.jpg",
+      "details": "Healthy Carrot",
+      "seller": "2",
+      "id": 7
+    }
+  ],
+  "cart": [
+    {
+      "name": "Carrot",
+      "price": "120",
+      "photo": "https://www.komalasvegemart.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/carrots.jpg",
+      "details": "Healthy Carrot",
+      "seller": "2",
+      "id": 7,
+      "qty": 2
+    },
+    {
+      "id": 3,
+      "name": "Orange",
+      "price": 80,
+      "photo": "3.jpg",
+      "details": "good orange",
+      "seller": 1,
+      "qty": 1
+    },
+    {
+      "id": 1,
+      "name": "Apple",
+      "price": 300,
+      "photo": "1.jpg",
+      "details": "good apple",
+      "seller": 1,
+      "qty": 1
+    },
+    {
+      "name": "Pomegranate",
+      "price": "120",
+      "photo": "https://images.healthshots.com/healthshots/en/uploads/2021/09/27184641/pomegranate-1600x900.jpg",
+      "details": "Good Pomegranate",
+      "seller": "1",
+      "id": 5,
+      "qty": 1
+    }
+  ],
+  "order": [
+    {
+      "customername": "Aayesha Shaikh",
+      "mobile": "7387397005",
+      "email": "shaikhaayesh612@gmail.com",
+      "address": "237/A 2nd floor 3rd Main Road Iliyas Nagar JP Nagar Post",
+      "orderitem": [
+        {
+          "name": "Pomegranate",
+          "price": "120",
+          "photo": "https://images.healthshots.com/healthshots/en/uploads/2021/09/27184641/pomegranate-1600x900.jpg",
+          "details": "Good Pomegranate",
+          "seller": "1",
+          "id": 5,
+          "qty": 2
+        },
+        {
+          "name": "Carrot",
+          "price": "120",
+          "photo": "https://www.komalasvegemart.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/carrots.jpg",
+          "details": "Healthy Carrot",
+          "seller": "2",
+          "id": 7,
+          "qty": 3
+        },
+        {
+          "name": "Pineapple",
+          "price": "200",
+          "photo": "https://media6.ppl-media.com/mediafiles/blogs/pineapple_6439817058.jpg",
+          "details": "Good PineApple",
+          "seller": "1",
+          "id": 6,
+          "qty": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "customername": "Omar",
+      "mobile": "9999999999",
+      "email": "mullaomar821@gmail.com",
+      "address": "Delhi",
+      "orderitem": [
+        {
+          "name": "Carrot",
+          "price": "120",
+          "photo": "https://www.komalasvegemart.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/carrots.jpg",
+          "details": "Healthy Carrot",
+          "seller": "2",
+          "id": 7,
+          "qty": 1
+        },
+        {
+          "id": 3,
+          "name": "Orange",
+          "price": 80,
+          "photo": "3.jpg",
+          "details": "good orange",
+          "seller": 1,
+          "qty": 1
+        },
+        {
+          "id": 1,
+          "name": "Apple",
+          "price": 300,
+          "photo": "1.jpg",
+          "details": "good apple",
+          "seller": 1,
+          "qty": 1
+        },
+        {
+          "name": "Pomegranate",
+          "price": "120",
+          "photo": "https://images.healthshots.com/healthshots/en/uploads/2021/09/27184641/pomegranate-1600x900.jpg",
+          "details": "Good Pomegranate",
+          "seller": "1",
+          "id": 5,
+          "qty": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "customername": "Nidaa",
+      "mobile": "7777777777",
+      "email": "abc@gmail.com",
+      "address": "ABC Park, Satara",
+      "orderitem": [
+        {
+          "name": "Carrot",
+          "price": "120",
+          "photo": "https://www.komalasvegemart.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/a/carrots.jpg",
+          "details": "Healthy Carrot",
+          "seller": "2",
+          "id": 7,
+          "qty": 1
+        },
+        {
+          "id": 3,
+          "name": "Orange",
+          "price": 80,
+          "photo": "3.jpg",
+          "details": "good orange",
+          "seller": 1,
+          "qty": 1
+        },
+        {
+          "id": 1,
+          "name": "Apple",
+          "price": 300,
+          "photo": "1.jpg",
+          "details": "good apple",
+          "seller": 1,
+          "qty": 1
+        },
+        {
+          "name": "Pomegranate",
+          "price": "120",
+          "photo": "https://images.healthshots.com/healthshots/en/uploads/2021/09/27184641/pomegranate-1600x900.jpg",
+          "details": "Good Pomegranate",
+          "seller": "1",
+          "id": 5,
+          "qty": 1
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "account": [
+    {
+      "id": 1,
+      "fname": "Rohit",
+      "lname": "Jagtap",
+      "mobile": "9999999999",
+      "email": "s1@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "address": "123, Seller1, Jagtap Park, Bangalore"
+    },
+    {
+      "id": 2,
+      "fname": "Kishoree",
+      "lname": "Bhosale",
+      "mobile": "8888888888",
+      "email": "s2@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "address": "123, Seller2, Bhosale Park, Bangalore"
+    },
+    {
+      "fname": "Riya",
+      "lname": "Chavan",
+      "mobile": "7777777777",
+      "email": "s3@gmail.com",
+      "password": "123",
+      "cpassword": "123",
+      "address": "123, Seller3, Chavan Park, Bangalore",
+      "id": 3
+    }
+  ]
+}

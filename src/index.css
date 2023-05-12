@@ -11,3 +11,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/*Below <Main> tag
+    <section id="banner"> React Shopping App </section> 
+
+  with css for banner for animated banner
+
+@keyframes mybanner {
+  25%{ background-image: url('../public/2.jpg'); }
+  50%{ background-image: url('../public/3.jpg'); }
+  75%{ background-image: url('../public/4.jpg'); }
+}
+
+#banner{
+  height: 400px;
+  background-image: url('../public/1.jpg');
+  background-size: 100% 100%;
+  animation: mybanner;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  font-size: 90px;
+  text-align: center;
+  color: yellow;
+  padding: 100px;
+}
+*/
+.lightgreen{
+  color:rgb(192, 248, 118)
+}
+.bg-lightgreen{
+  background-color:rgb(212, 247, 166)
+}
+
+.heading1{
+  font-size: 60px;
+  font-weight: bold;
+  font-family:cursive ;
+  text-shadow: 0 0 10px rgb(184, 245, 128);
+
+}
+.heading2{
+  font-size: 50px;
+  color: rgb(180, 248, 141);
+  text-shadow: 0 0 10px rgb(243, 10, 49);
+  font-family:cursive;
+}
+
+.heading3{
+  font-size: 70px;
+  color: rgb(238, 40, 40);
+  text-shadow: 0 0 10px rgb(10, 243, 231);
+  font-family:cursive;
+}
+
+.logo1{
+  text-shadow: 0 0 5px rgb(214, 243, 47);
+  font-size: 40px;
+}
+.logo5{
+  text-shadow: 0 0 5px rgb(214, 243, 47);
+  font-size: 50px;
+}
+
+.logout{
+  cursor: pointer;
+}
