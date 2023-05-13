@@ -12,8 +12,7 @@ const Login = () =>{
         }else{
             updateMsg("Please Wait Validating...");
         
-            //let url = "http://localhost:1234/account?email="+useremail+"&password="+password;      //Query String
-            let url = "https://github.com/shaikhaayesha612/EcommerceShoppingApp-OrganicFood/blob/main/api/data.json/account?email="+useremail+"&password="+password;
+            let url = "http://localhost:1234/account?email="+useremail+"&password="+password;      //Query String
             fetch(url)
             .then(Response=>Response.json())
             .then(userInfo=>{
