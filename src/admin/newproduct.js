@@ -8,11 +8,11 @@ const Newproduct = () =>{
     let[pdetails, pickDetails] = useState("");
 
     const save = () =>{
-        if(pname = "" || pprice == "" || pphoto == "" || pdetails == "" ){
+        if(pname === "" || pprice === "" || pphoto === "" || pdetails === "" ){
             alert("Please fill the details");
         }else{
             let sellerid = localStorage.getItem("sellerid");    //whenever we login, it will return sellerid
-            let url = "http://localhost:1234/product";
+            let url = "https://ecommerceapi-s1rv.onrender.com/product";
             let pinfo = {
                 "name" : pname,
                 "price" : pprice,

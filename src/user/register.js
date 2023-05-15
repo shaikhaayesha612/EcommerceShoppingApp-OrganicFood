@@ -19,7 +19,7 @@ const Register = () =>{
 
     const submit = () =>{
         let formstatus = true;
-        if(fname == "" || mobile == "" || email == "" || password == "" || cpassword == ""){
+        if(fname === "" || mobile === "" || email === "" || password === "" || cpassword === ""){
             Swal.fire({
                 icon: 'error',
                 title: 'Oops...',
@@ -47,7 +47,7 @@ const Register = () =>{
             }
 
             if(formstatus == true){
-                let url = "http://localhost:1234/account/";
+                let url = "https://ecommerceapi-s1rv.onrender.com/account/";
                 let sellerinfo = {
                     "fname" : fname,
                     "lname" : lname,

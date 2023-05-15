@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const Myhome = () =>{
     let [allproduct, updateProduct] = useState( [] );
     const getProduct = () =>{
-        fetch("http://localhost:1234/product")
+        fetch("https://ecommerceapi-s1rv.onrender.com/product")
         .then(Response => Response.json())
         .then(productArray=>{
             updateProduct(productArray.reverse());      //.reverse() Newly added product will come on the top
@@ -23,7 +23,7 @@ const Myhome = () =>{
 
     const addtocart = (product) =>{     //product is holding complete information
         product["qty"] = 1;             //Add new feature in the list of product
-        let url= "http://localhost:1234/cart";  
+        let url= "https://ecommerceapi-s1rv.onrender.com/cart";  
         let postOption  = {
             headers:{'Content-Type':'application/json'},
             method:"POST",

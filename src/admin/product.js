@@ -6,7 +6,7 @@ const Myproduct = () =>{
     
     const getProduct = () =>{
         let sellerid = localStorage.getItem("sellerid");    //whenever we login, it will return sellerid
-        let url = "http://localhost:1234/product?seller="+sellerid;
+        let url = "https://ecommerceapi-s1rv.onrender.com/product?seller="+sellerid;
         fetch(url)
         .then(response=>response.json())
         .then(productArray=>{
@@ -20,7 +20,7 @@ const Myproduct = () =>{
 
     //Removing the product from product list
     const delProduct = (pid) =>{
-        let url = "http://localhost:1234/product/"+pid;
+        let url = "https://ecommerceapi-s1rv.onrender.com/product/"+pid;
         let postOption = {method:"DELETE"};
         fetch(url, postOption)
         .then(response => response.json())

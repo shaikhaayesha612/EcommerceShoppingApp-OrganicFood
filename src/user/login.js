@@ -7,12 +7,12 @@ const Login = () =>{
     let[password, pickPassword] = useState("");
 
     const goLogin = () =>{
-        if( useremail == "" || password == ""){
+        if( useremail === "" || password === ""){
             updateMsg("Please Enter Email-Id or Password !");
         }else{
             updateMsg("Please Wait Validating...");
         
-            let url = "http://localhost:1234/account?email="+useremail+"&password="+password;      //Query String
+            let url = "https://ecommerceapi-s1rv.onrender.com/account?email="+useremail+"&password="+password;      //Query String
             fetch(url)
             .then(Response=>Response.json())
             .then(userInfo=>{

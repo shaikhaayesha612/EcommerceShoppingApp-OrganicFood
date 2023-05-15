@@ -5,7 +5,7 @@ const Myorder = () =>{
     let[allorder, updateOrder] = useState( [] );
     const getOrder = () =>{
         let sellerid = localStorage.getItem("sellerid");    //whenever we login, it will return sellerid
-        let url = "http://localhost:1234/order";
+        let url = "https://ecommerceapi-s1rv.onrender.com/order";
         fetch(url)
         .then(response=>response.json())
         .then(productArray=>{

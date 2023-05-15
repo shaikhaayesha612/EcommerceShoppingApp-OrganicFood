@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const Mycart = () =>{
     let [cartitems, updateCart] = useState( [] );
-    let url= "http://localhost:1234/cart";
+    let url= "https://ecommerceapi-s1rv.onrender.com/cart";
     
     const getCart = () =>{
         fetch(url)
@@ -28,7 +28,7 @@ const Mycart = () =>{
         }
 
         if(cart.qty > 0){
-            let url = "http://localhost:1234/cart/"+cid;
+            let url = "https://ecommerceapi-s1rv.onrender.com/cart/"+cid;
             let postOption = {
                 headers:{'Content-Type':'application/json'},
                 method:"PUT",
@@ -48,7 +48,7 @@ const Mycart = () =>{
 
     //Remove or Delete Item from thhe cart if qty goes below to 0
     const deleteCart = (cid) =>{
-        let url = "http://localhost:1234/cart/"+cid;
+        let url = "https://ecommerceapi-s1rv.onrender.com/cart/"+cid;
         let postOption = { method:"DELETE" };
         fetch(url, postOption)
         .then(response => response.json())
@@ -65,7 +65,7 @@ const Mycart = () =>{
 
     //Function for placing the order
     const placeOrder = () =>{
-        let url = "http://localhost:1234/order/";
+        let url = "https://ecommerceapi-s1rv.onrender.com/order/";
         let orderData = {
             customername : fullname,            //property:variable
             mobile : mobile, 
